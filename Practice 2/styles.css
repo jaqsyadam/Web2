@@ -1,0 +1,123 @@
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Heading styling */
+h1, h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* Unordered list styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-spacing: 5px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    border-width: 2px;
+}
+
+td {
+    border-style: solid;
+}
+
+/* Image styling */
+img {
+    width: 120px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Button styling */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    min-height: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="tel"] {
+    width: 95%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    max-width: 300px;
+    position: relative;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Additional layout styling */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    width: 48%;
+    min-width: 300px;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
